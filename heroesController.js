@@ -1,8 +1,8 @@
 (function(){
   'use strict';
   angular
-  .module('heroesApp.heroesController', [])
-  .controller('heroesController', heroesController);
+    .module('heroesApp.heroesController', [])
+    .controller('heroesController', heroesController);
 
   heroesController.$inject = ['heroesProvider', 'heroesService', 'heroesFactory', 'heroesConstant', 'heroesValue']
   function heroesController(heroesProvider, heroesService, heroesFactory, heroesConstant, heroesValue){
