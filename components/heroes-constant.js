@@ -1,6 +1,6 @@
 (function(){
   'use strict';
   angular
-  .module('heroesApp.heroesConstant', [])
-  .constant('heroesConstant', 'HERO!');
+    .module('heroesApp.heroesConstant', [])
+    .constant('heroesConstant', 'HERO!');
 })();
