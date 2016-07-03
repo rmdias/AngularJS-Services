@@ -1,8 +1,8 @@
 (function(){
   'use strict';
   angular
-  .module('heroesApp.heroesFactory', [])
-  .factory('heroesFactory', heroesFactory);
+    .module('heroesApp.heroesFactory', [])
+    .factory('heroesFactory', heroesFactory);
 
   function heroesFactory(){
     var heroes = ['Wesley Safadão', 'Batman', 'Captain America'];
