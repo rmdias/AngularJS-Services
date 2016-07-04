@@ -1,13 +1,14 @@
 (function(){
   'use strict';
-  angular.module('myApp', [
-    'myApp.myUsersProvider',
-    'myApp.myUsersService',
-    'myApp.myUsersFactory',
-    'myApp.myUsersController'
+  angular
+  .module('heroesApp', [
+    'heroesApp.heroesProvider',
+    'heroesApp.heroesService',
+    'heroesApp.heroesFactory',
+    'heroesApp.heroesController'
   ])
-
-  .config(function(myUsersProviderProvider){
-    // myUsersProviderProvider.updateUsers(['André', 'Paulo', 'Anderson']);
+  .config(function(heroesProviderProvider){
+    var newHeroes = ['Wesley Safadão', 'Batman', 'Captain America'];
+    heroesProviderProvider.updateHeroes(newHeroes);
   });
 })();
