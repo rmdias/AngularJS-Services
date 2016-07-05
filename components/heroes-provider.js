@@ -1,8 +1,8 @@
 (function(){
   'use strict';
   angular
-  .module('heroesApp.heroesProvider', [])
-  .provider('heroesProvider', heroesProvider);
+    .module('heroesApp.heroesProvider', [])
+    .provider('heroesProvider', heroesProvider);
 
   function heroesProvider(){
     this.heroes = ['Superman', 'Flash', 'Spider Man'];
