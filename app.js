@@ -5,7 +5,9 @@
     'heroesApp.heroesProvider',
     'heroesApp.heroesService',
     'heroesApp.heroesFactory',
-    'heroesApp.heroesController'
+    'heroesApp.heroesController',
+    'heroesApp.heroesConstant',
+    'heroesApp.heroesValue'
   ])
   .config(function(heroesProviderProvider){
     var newHeroes = ['Wesley Safadão', 'Batman', 'Captain America'];
