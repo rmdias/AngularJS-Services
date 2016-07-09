@@ -1,6 +1,6 @@
 (function(){
   'use strict';
   angular
-  .module('heroesApp.heroesValue', [])
-  .value('heroesValue', 'HERO!');
+    .module('heroesApp.heroesValue', [])
+    .value('heroesValue', 'HERO!');
 })();
