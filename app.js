@@ -9,8 +9,10 @@
       'heroesApp.heroesConstant',
       'heroesApp.heroesValue'
     ])
-  .config(function(heroesProviderProvider){
+  .config(configApp);
+
+  function configApp(heroesProviderProvider) {
     var newHeroes = ['Wesley Safadão', 'Batman', 'Captain America'];
     heroesProviderProvider.updateHeroes(newHeroes);
-  });
+  };
 })();
